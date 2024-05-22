@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="anunciarVagas.css">
+    <title>Anunciar Vagas</title>
+</head>
+<body>
+
+    <div class="anunciar-vagas-container">
+        <h2>Anunciar Vaga</h2>
+        <form action="#" method="post">
+            <label for="titulo">Título da Vaga:</label>
+            <input type="text" id="titulo" name="titulo" required>
+
+            <label for="descricao">Descrição da Vaga:</label>
+            <textarea id="descricao" name="descricao" rows="4" required></textarea>
+
+            <label for="requisitos">Requisitos:</label>
+            <textarea id="requisitos" name="requisitos" rows="4" required></textarea>
+
+            <label for="tipoContrato">Tipo de Contrato:</label>
+            <select id="tipoContrato" name="tipoContrato" required>
+                <option value="tempo-integral">Tempo Integral</option>
+                <option value="meio-periodo">Meio Período</option>
+            </select>
+
+            <label for="localizacao">Localização:</label>
+            <input type="text" id="localizacao" name="localizacao" required>
+
+            <label for="contato">Informações de Contato:</label>
+            <textarea id="contato" name="contato" rows="4" required></textarea>
+
+            <button type="submit">Anunciar Vaga</button>
+        </form>
+    </div>
+
+</body>
+</html>
